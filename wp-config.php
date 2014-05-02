@@ -20,17 +20,6 @@ $services = getenv("VCAP_SERVICES");
 $services_json = json_decode($services,true);
 $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
-if ( ! isset($mysql_config) OR $mysql_config == '' )
-{
-	$mysql_config = array(
-						'name'	=>	'jhcshop',
-						'user'	=>	'root',
-						'password'	=>	'toor',
-						'hostname'	=>	'localhost',
-						'port'	=>	'3306'
-		);
-}
-
 $tes = getenv('OPENSHIFT_APP_NAME');
 if ( isset($tes) AND $tes !== FALSE )
 {
