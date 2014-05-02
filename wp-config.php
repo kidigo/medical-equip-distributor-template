@@ -59,14 +59,14 @@ define('DB_PORT', $mysql_config["port"]);
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '(E]/Z(Q4Fh;z+f!nUWN?~8v@yW=z]Gi;7[%H{uMA[*h?eS|D|t6TobcI5Ft_Wnd4');
+define('SECURE_AUTH_KEY',  'q!dY>lfhoy/]td&WOYc10k-^_wj5{^r~IiSP|{ta/7w5R$`-]W.tsbnCK!$b802v');
+define('LOGGED_IN_KEY',    '8tdX7!Y9!EN(o-cs+i&JIZZYH]=]t=RlB}-$WpD?vx|KE?vAhlAU]{lUhv!9P*IO');
+define('NONCE_KEY',        'P2KhA[8@zz6VR54N2eXR0[wfj~dbn:8q<paQ{3l0l<OLIH9p^M7+~ff1O:6_R]q4');
+define('AUTH_SALT',        'c$ggaV.+{p>Cp<q~@(+e/X-{z,T8}=+bRO WQxc,jz}se=2~E:ceRx,h71SMC(!c');
+define('SECURE_AUTH_SALT', '/sx)u/+cu& 3N[$LqOSnOl]@{z5NJuF*ICAQ+ lX{>y`_=Rb!YMg:.A8=S+2.:#m');
+define('LOGGED_IN_SALT',   '2xNj[Q>3V*xFiJT?mC}x5;Xe}B4~K%.fls#|k,y{b/M$B~=0~> C,<w<tOz~URV9');
+define('NONCE_SALT',       ')BQu`Yxq-{dk8Qp`YKGF+}/9SFO<r@WVA]}Na+|(IT|2oG?7meL%)B7iP;&efjm2');
 
 /**#@-*/
 
@@ -77,6 +77,13 @@ define('NONCE_SALT',       'put your unique phrase here');
  * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'jhcshop_';
+
+// addtional EDITING 
+define( 'WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/jhcshop' );
+define( 'WP_HOME', 'http://' . $_SERVER['SERVER_NAME'] . '/jhcshop' );
+define( 'WP_MEMORY_LIMIT', '64M' );
+
+
 
 /**
  * WordPress Localized Language, defaults to English.
@@ -96,6 +103,8 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+
+// define('RELOCATE',true);
 
 /* That's all, stop editing! Happy blogging. */
 
