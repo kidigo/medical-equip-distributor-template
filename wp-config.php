@@ -48,14 +48,14 @@ define('DB_PORT', $mysql_config["port"]);
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '(E]/Z(Q4Fh;z+f!nUWN?~8v@yW=z]Gi;7[%H{uMA[*h?eS|D|t6TobcI5Ft_Wnd4');
-define('SECURE_AUTH_KEY',  'q!dY>lfhoy/]td&WOYc10k-^_wj5{^r~IiSP|{ta/7w5R$`-]W.tsbnCK!$b802v');
-define('LOGGED_IN_KEY',    '8tdX7!Y9!EN(o-cs+i&JIZZYH]=]t=RlB}-$WpD?vx|KE?vAhlAU]{lUhv!9P*IO');
-define('NONCE_KEY',        'P2KhA[8@zz6VR54N2eXR0[wfj~dbn:8q<paQ{3l0l<OLIH9p^M7+~ff1O:6_R]q4');
-define('AUTH_SALT',        'c$ggaV.+{p>Cp<q~@(+e/X-{z,T8}=+bRO WQxc,jz}se=2~E:ceRx,h71SMC(!c');
-define('SECURE_AUTH_SALT', '/sx)u/+cu& 3N[$LqOSnOl]@{z5NJuF*ICAQ+ lX{>y`_=Rb!YMg:.A8=S+2.:#m');
-define('LOGGED_IN_SALT',   '2xNj[Q>3V*xFiJT?mC}x5;Xe}B4~K%.fls#|k,y{b/M$B~=0~> C,<w<tOz~URV9');
-define('NONCE_SALT',       ')BQu`Yxq-{dk8Qp`YKGF+}/9SFO<r@WVA]}Na+|(IT|2oG?7meL%)B7iP;&efjm2');
+define('AUTH_KEY',         'gB{P8m|dkN*/1oj5|&aKfaA+K@v#|LH+E|~~:XmTTI}Cxh8yR!`zA^>i+Y4T8h}v');
+define('SECURE_AUTH_KEY',  'eBny=kA5>K*/C~NSV3UK:Xq-68a-LESG3F+^C+{hHfb`R2rXh@Tt)qbW3JI`3KO|');
+define('LOGGED_IN_KEY',    'YakYv=d/B,In>z/q?8,{+%`-`MrY^&=tlHL+2ZNG[,sTeC5+M)+Udf7nJC3*P8:Y');
+define('NONCE_KEY',        '[;lmy{_!_-@q*<DqXOiNVtjcUV+KAM]WV>[v:!>Q||ksW=eTJyy7k(}^S6-aW2B{');
+define('AUTH_SALT',        'n1L40`sT~PelH/O+a3m_%,M_43(@3C/[{DJ,<5:{+btyS8|~__)P2ASn6Oh/TeTv');
+define('SECURE_AUTH_SALT', '(%_a/+iQRu?!-F`iC/a0*dN.soiyci210^}_xL3oK52(u-:lhUDP$@?TAu17I%UD');
+define('LOGGED_IN_SALT',   '$+<OIO=OBG$0FW=+gZt/~v@6c1Qc|SEWn=],MIo72^SLz*`~+2fCo:M{Xe,ewNXf');
+define('NONCE_SALT',       '6N,d=>/r Y7EUSWcRR0AR_t.%rV!j/OtzNFS%xW]YY|<.-vbR*}H1O-C{B|QRK7|');
 
 /**#@-*/
 
