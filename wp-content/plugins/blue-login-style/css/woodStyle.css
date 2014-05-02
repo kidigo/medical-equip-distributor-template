@@ -1,0 +1,105 @@
+/* By Ali Mizaei*/
+
+/* Page Background */
+body.login, html {
+	background: #e1c192 url(../images/wood_pattern.jpg);
+	font-family: 'Ubuntu', 'Lato', sans-serif;
+}
+
+#login{
+	padding: 0;
+}
+
+body.login div#login form{
+	width: 300px;
+    margin: 30px auto;
+    padding: 10px;
+    position: relative;
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+}
+
+/* Input */
+body.login div#login form input {
+    font-size: 13px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ebe6e2;
+    border-radius: 5px;
+	direction:ltr;
+}
+
+body.login div#login form input:hover {
+    border-color: #CCC;
+}
+body.login div#login form input:focus {
+    border-color: #BBB;
+    outline: none; /* Remove Chrome's outline */
+}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+	margin-top:3px;
+}
+
+/* submit */
+body.login div#login form p.submit input#wp-submit{
+	display: inline-block;
+	width:100%;
+    position: relative;
+	box-shadow: inset 0 1px rgba(255,255,255,0.3);
+	height:33px;
+	line-height:14px;
+    /* Styles */
+    background: #fbd568; /* Fallback */
+    background: -moz-linear-gradient(#fbd568, #ffb347);
+    background: -ms-linear-gradient(#fbd568, #ffb347);
+    background: -o-linear-gradient(#fbd568, #ffb347);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fbd568), to(#ffb347));
+    background: -webkit-linear-gradient(#fbd568, #ffb347);
+    background: linear-gradient(#fbd568, #ffb347);
+    border: 1px solid #f4ab4c;
+    color: #996319;
+    text-shadow: 0 1px rgba(255,255,255,0.3);
+    border-radius: 3px;
+    cursor: pointer;
+	
+}
+
+body.login div#login form p.submit input#wp-submit:hover {
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.3), 
+        inset 0 20px 40px rgba(255,255,255,0.15);
+}
+
+body.login div#login form p.submit input#wp-submit:active {
+    top: 1px;
+}
+
+body.login div#login p#nav{
+	margin-left:-20px;
+}
+
+body.login div#login p#backtoblog{
+	margin-left:-20px;
+}
+
+body.login div#login p#nav a ,body.login div#login p#backtoblog a{
+	text-decoration:none;
+	text-shadow:none;
+	color: #fff !important;
+	padding:3px;
+	border:solid 1px #D94E3B;
+	background:#cb3b27;
+	-webkit-box-shadow: 0px 3px 0px #84261a;
+    -moz-box-shadow: 0px 3px 0px #84261a;
+    box-shadow: 0px 3px 0px #84261a;
+}
+
+body.login div#login p#nav a:hover ,body.login div#login p#backtoblog a:hover{
+	opacity:0.7;
+}

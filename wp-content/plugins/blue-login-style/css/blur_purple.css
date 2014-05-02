@@ -1,0 +1,140 @@
+/* By Ali Mizaei*/
+
+/* Page Background */
+body.login, html {
+	background: #eedfcc url(../images/blur_purple.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	overflow:auto;
+}
+
+#login{
+	padding: 0;
+}
+
+.login label {
+	color: #fff;
+}
+
+.login  .message,.login  #login_error {
+	background:none; /* For Internet Explorer */
+	background: rgba(0,0,0,0.3);
+	color:#fff;
+	box-shadow:none;
+}
+
+
+body.login div#login form{
+    /* Size and position */
+    width: 300px;
+    margin: 30px auto;
+    padding: 10px;
+    position: relative;
+	background: url(../images/blur_bg.png) repeat;
+	box-shadow: 0 0 10px rgba(0,0,0,.13);
+	border-radius:3px;
+    /* Font styles */
+    color: white;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+	
+}
+
+/* Input */
+body.login div#login form input {
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 15px;
+	background: none; /* For Internet Explorer */
+    border: 1px solid rgba(0,0,0, 0.2);
+    background: rgba(0,0,0,0.08);
+    border-radius: 2px;
+    box-shadow: 
+        0 1px 0 rgba(255,255,255,0.2), 
+        inset 1px 2px 1px rgba(0,0,0,0.1);
+    color: #fff;
+	font-weight:bold;
+    font-size: 17px;
+	direction:ltr;
+}
+
+body.login div#login form #user_login{
+	background:url(../images/user.png) 2% 9px no-repeat;
+	padding-left:10%;
+}
+body.login div#login form #user_pass,body.login div#login form #pass1,body.login div#login form #pass2{
+	background:url(../images/pass.png) 2% 9px no-repeat;
+	padding-left:10%;
+}
+body.login div#login form #user_email{
+	background:url(../images/mail.png) 2% 11.5px no-repeat;
+	padding-left:10.1%;
+}
+
+body.login div#login form input:focus {
+    box-shadow: 
+        0 1px 0 rgba(255,255,255,0.2), 
+        inset 0 1px 1px rgba(0,0,0,0.1),
+        0 0 0 3px rgba(255,255,255,0.15);
+    outline: none;
+}
+
+body.login div#login form input:focus {
+    outline: none;
+}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+	margin-top:8px;
+}
+
+/* submit */
+body.login div#login form p.submit input#wp-submit{
+    padding: 0 20px;
+    width:100%;
+	height:35px;
+	background-color: #5bb75b;
+	*background-color: #51a351;
+	background-image: -moz-linear-gradient(top, #62c462, #51a351);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+	background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+	background-image: -o-linear-gradient(top, #62c462, #51a351);
+	background-image: linear-gradient(to bottom, #62c462, #51a351);
+	background-repeat: repeat-x;
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+
+    /* Font styles */
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body.login div#login form p.submit input#wp-submit:hover {
+	background: #51a351;
+}
+
+body.login div#login form p.submit input#wp-submit:active {
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+body.login div#login p#nav{
+	margin-left:-20px;
+}
+
+body.login div#login p#backtoblog{
+	margin-left:-20px;
+}
+
+body.login div#login p#nav a ,body.login div#login p#backtoblog a{
+	text-decoration:none;
+	text-shadow:none;
+	color: #fff !important;
+}
+
+body.login div#login p#nav a:hover ,body.login div#login p#backtoblog a:hover{
+	opacity:0.5;
+}

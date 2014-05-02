@@ -1,0 +1,118 @@
+/* By Ali Mizaei*/
+
+/* Page Background */
+body.login, html {
+	background: #eedfcc url(../images/bg2.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	font-family: 'Ubuntu', 'Lato', sans-serif;
+	overflow:auto;
+}
+
+#login{
+	padding: 0;
+}
+
+body.login div#login form{
+	width: 300px;
+	height:auto;
+    padding: 10px;	
+	margin:25px auto;
+	box-shadow:
+	0 2px 2px rgba(0,0,0,0.2),        
+	0 1px 5px rgba(0,0,0,0.2),        
+	0 0 0 12px rgba(255,255,255,0.4); 	
+	border-radius: 5px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #d3efff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d3efff));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#d3efff 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#d3efff 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#d3efff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3efff',GradientType=0 );
+	background: linear-gradient(to bottom,  #ffffff 0%,#d3efff 100%);	
+}
+
+/* Input */
+body.login div#login form input {
+    padding: 12px 5px;
+    margin-bottom: 10px;
+    font-size: 12px;	
+	background: #d3efff;
+	background: -moz-linear-gradient(top,  #d3efff 0%, #ffffff 55%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3efff), color-stop(55%,#ffffff));
+	background: -webkit-linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	background: -o-linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	background: -ms-linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	background: linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	direction:ltr;
+}
+
+body.login div#login form input:focus {
+    outline: none;
+}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+	margin-top:8px;
+}
+
+/* submit */
+body.login div#login form p.submit input#wp-submit{
+	display: inline-block;
+	color: white;
+	padding: 0px 40px;
+	cursor: pointer;	
+    background: #34a5cf; /* Fallback */
+    background: -moz-linear-gradient(#34a5cf, #2a8ac4);
+    background: -ms-linear-gradient(#34a5cf, #2a8ac4);
+    background: -o-linear-gradient(#34a5cf, #2a8ac4);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#34a5cf), to(#2a8ac4));
+    background: -webkit-linear-gradient(#34a5cf, #2a8ac4);
+    background: linear-gradient(#34a5cf, #2a8ac4);
+    border: 1px solid #2b8bc7;
+    color: #ffffff;
+    text-shadow: 0 -1px rgba(0,0,0,0.3);
+    text-decoration: none;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+body.login div#login form p.submit input#wp-submit:hover {
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.3), 
+        inset 0 20px 40px rgba(255,255,255,0.15);
+}
+
+body.login div#login form p.submit input#wp-submit:active {
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+body.login div#login p#nav{
+	margin-left:-20px;
+}
+
+body.login div#login p#backtoblog{
+	margin-left:-20px;
+}
+
+body.login div#login p#nav a ,body.login div#login p#backtoblog a{
+	text-decoration:none;
+	text-shadow:none;
+	color: #666 !important;
+}
+
+body.login div#login p#nav a:hover ,body.login div#login p#backtoblog a:hover{
+	color:#8d1645 !important;
+}

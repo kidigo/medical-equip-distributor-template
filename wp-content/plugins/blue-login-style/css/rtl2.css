@@ -1,0 +1,24 @@
+/* By Ali Mizaei - www.alimir.ir*/
+
+body.login, html {
+	height:auto;
+	font-family: Tahoma,Arial;
+}
+
+body.login div#login p#nav,body.login div#login p#backtoblog{
+	margin-right:-20px;
+}
+
+body.login div#login form p.submit input#wp-submit {
+	font-family: Tahoma,Arial;
+	font-weight: normal;
+    font-size: 16px;
+}
+.login form .submit {
+	float: none;
+}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+	margin-top:3px;
+	direction:rtl;
+}
